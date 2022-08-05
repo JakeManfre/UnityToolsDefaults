@@ -7,6 +7,7 @@ using UnityEngine;
 
 public static class UnityDefaultPackages
 {
+#if UNITY_EDITOR
     [MenuItem("Tools/Set Default Packages")]
     public static async void LoadNewManifest()
     {
@@ -35,4 +36,5 @@ public static class UnityDefaultPackages
         File.WriteAllText(filePath, contents);
         UnityEditor.PackageManager.Client.Resolve();
     }
+#endif
 }

@@ -19,6 +19,7 @@ public static class UnityDefaultDirectories
         "Images"
     };
 
+#if UNITY_EDITOR
     [MenuItem("Tools/Create Default Directories")]
     public static void CreateDefaultDirectories()
     {
@@ -30,4 +31,5 @@ public static class UnityDefaultDirectories
 
         AssetDatabase.Refresh();
     }
+#endif
 }
