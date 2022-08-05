@@ -1,5 +1,6 @@
 {
     "name": "com.jakemanfre.unitytoolsdefaults",
-    "version": "1.0.0",
+    "version": "1.1.0",
+    "description": "Unity project custom default packages and directories.",
     "displayname": "Unity project custom default packages and directories."
 }
